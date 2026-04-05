@@ -37,6 +37,16 @@ Then open `http://localhost:3000`.
 
 BC-Blocks includes adapted code from Tailblocks (MIT). The original copyright and permission notice are preserved in `LICENSE`.
 
+## Contributing
+
+Please read `CONTRIBUTING.md` before opening a pull request. Community expectations are documented in `CODE_OF_CONDUCT.md`.
+
+## Deployment (GitHub Pages)
+
+- GitHub Actions builds and deploys Pages from `main` using `.github/workflows/deploy-pages.yml`.
+- CI checks run from `.github/workflows/ci.yml` for pull requests and pushes to `main`.
+- Expected site URL: `https://nemesis312.github.io/bc-blocks/`.
+
 ## License
 
 MIT. See `LICENSE`.
