@@ -221,7 +221,13 @@ class App extends Component {
       return;
     }
 
-    const frameDocument = iframe.contentWindow.document;
+    let frameDocument;
+    try {
+      frameDocument = iframe.contentWindow.document;
+    } catch (e) {
+      return;
+    }
+
     this.ensureTailwindRuntime(frameDocument);
     frameDocument.addEventListener('keydown', this.keyboardNavigation);
     frameDocument.addEventListener('click', () => this.setState({ sidebar: false }));
@@ -240,7 +246,11 @@ class App extends Component {
       return;
     }
 
-    this.ensureTailwindRuntime(iframe.contentWindow.document);
+    try {
+      this.ensureTailwindRuntime(iframe.contentWindow.document);
+    } catch (e) {
+      // Cross-origin iframe (e.g. Google Maps embed) — skip Tailwind injection
+    }
   }
 
   beautifyHTML(codeStr) {
