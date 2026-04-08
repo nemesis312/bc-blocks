@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from  "prop-types";
+import PropTypes from "prop-types";
 
 function DarkFooterE(props) {
   return (
@@ -12,35 +12,24 @@ function DarkFooterE(props) {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">First Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  First Link
+                </a>
               </li>
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Second Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Second Link
+                </a>
               </li>
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Third Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Third Link
+                </a>
               </li>
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a href="#!" className="text-gray-400 hover:text-white">First Link</a>
-              </li>
-              <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Second Link</a>
-              </li>
-              <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Third Link</a>
-              </li>
-              <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Fourth Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Fourth Link
+                </a>
               </li>
             </nav>
           </div>
@@ -50,16 +39,51 @@ function DarkFooterE(props) {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">First Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  First Link
+                </a>
               </li>
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Second Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Second Link
+                </a>
               </li>
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Third Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Third Link
+                </a>
               </li>
               <li>
-                <a href="#!" className="text-gray-400 hover:text-white">Fourth Link</a>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Fourth Link
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+              CATEGORIES
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  First Link
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Second Link
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Third Link
+                </a>
+              </li>
+              <li>
+                <a href="#!" className="text-gray-400 hover:text-white">
+                  Fourth Link
+                </a>
               </li>
             </nav>
           </div>
@@ -82,7 +106,9 @@ function DarkFooterE(props) {
                   className={`w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:bg-transparent focus:ring-2 focus:ring-${props.theme}-900 focus:border-${props.theme}-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`}
                 />
               </div>
-              <button className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}>
+              <button
+                className={`lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-${props.theme}-500 border-0 py-2 px-6 focus:outline-none hover:bg-${props.theme}-600 rounded`}
+              >
                 Button
               </button>
             </div>
@@ -95,7 +121,10 @@ function DarkFooterE(props) {
       </div>
       <div className="bg-gray-800 bg-opacity-75">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <a href="#!" className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <a
+            href="#!"
+            className="flex title-font font-medium items-center md:justify-start justify-center text-white"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -112,8 +141,13 @@ function DarkFooterE(props) {
           </a>
           <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">
             © 2026 BC-Blocks —
-            <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">
-              @knyttneve
+            <a
+              href="https://x.com/BoricuaCoder"
+              className="text-gray-500 ml-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @boricuacoder
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
@@ -168,7 +202,7 @@ function DarkFooterE(props) {
                 <path
                   stroke="none"
                   d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-                 />
+                />
                 <circle cx="4" cy="4" r="2" stroke="none" />
               </svg>
             </a>
@@ -180,11 +214,11 @@ function DarkFooterE(props) {
 }
 
 DarkFooterE.defaultProps = {
-  theme: 'teal'
+  theme: "teal",
 };
 
 DarkFooterE.propTypes = {
-  theme: PropTypes.string.isRequired
+  theme: PropTypes.string.isRequired,
 };
 
 export default DarkFooterE;
